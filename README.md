@@ -1,4 +1,6 @@
 dlp_public
 ==========
 
-Public Web Dev for DLP
+This is the public web development repo for DLP.io
+
+

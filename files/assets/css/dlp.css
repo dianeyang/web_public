@@ -51,3 +51,38 @@ body {
 {
 	padding-top: 8px;
 }
+
+.maincontainer
+{
+	padding-top: 60px;
+}
+
+.mission
+{
+	padding-top: 4px;
+	padding-bottom: 10px;
+	border-top: 4px solid #33cccc;
+}
+
+.initiatives
+{
+	margin-top: -50px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.initiatives h2
+{
+	position: relative;
+	text-align: center;
+	color: #fff;
+	top: 540px;
+	z-index: 2;
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-size: 3.5em;
+}
+
+.initimg img
+{
+	padding-bottom: 5px;
+}

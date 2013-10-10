@@ -62,10 +62,10 @@ footer {
 {
 	margin-top: 63px;
 	margin-bottom: 50px;
-	height: 450px;
+	height: 464px;
 	background-color: #CECECE; 
 	background-image: url('../images/cropped_home_5.png');
-	background-size: 100% auto;
+	background-size: cover;
 	background-repeat:no-repeat; 
 	background-position:center top; 
 }

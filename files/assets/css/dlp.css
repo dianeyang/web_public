@@ -1,6 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     color: #333;
+    line-height: 1.45;
 }
 
 body a {
@@ -19,6 +20,12 @@ h1 {
 footer {
 	background-color: #303030;
 	color: #6e6e6e;
+	min-height: 200px;
+	padding-top: 60px;
+}
+
+footer a {
+	color: rgb(150, 150, 150);
 }
 
 .container {
@@ -61,7 +68,7 @@ footer {
 #myCarousel
 {
 	margin-top: 63px;
-	margin-bottom: 50px;
+	margin-bottom: 35px;
 	height: 464px;
 	background-color: #CECECE; 
 	background-image: url('../images/cropped_home_5.png');
@@ -73,7 +80,7 @@ footer {
 #myCarouselCaption
 {
 	z-index: 2;
-	margin-top: 100px; 
+	margin-top: 90px; 
 	padding: 10px; 
 	color: #FFFFFF; 
 	font-size: 1.3em;
@@ -92,12 +99,7 @@ footer {
 	font-weight: 300;
 }
 
-.call-to-action {
-	width: 280px;
-	height: 180px;
-}
-
-a.call-to-action {
+.call-to-action a {
 	display: block;
 	position: relative;
 	width: 290px;
@@ -123,13 +125,20 @@ a.call-to-action {
 	background-image: url("../images/hongkong1.jpg");
 }
 
-a.call-to-action:hover {
+.call-to-action a:hover {
 	text-decoration: none;
 }
 
-a.call-to-action span {
+.call-to-action a span {
 	z-index: 5;
 	position: relative;
+}
+
+.description {
+	font-size: 18px;
+	font-weight: 300;
+	padding: 20px 25px 0 25px;
+	text-align: center;
 }
 
 .cover::before {
@@ -151,6 +160,7 @@ a.call-to-action span {
 .btn-default {
 	background-color: #01A797;
 	border: 0;
+	font-size: 18px;
 }
 
 .row {
@@ -174,11 +184,15 @@ a.call-to-action span {
 	border-top: 4px solid #33cccc;
 }
 
+#impact {
+	background: #3EBAA8;
+	color: #FFFFFF;
+}
+
 .initiatives
 {
-	margin-top: -50px;
-	cursor: pointer;
-	text-align: center;
+	min-height: 280px;
+	margin-top: 0;
 }
 
 .initiatives h2

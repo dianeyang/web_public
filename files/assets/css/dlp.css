@@ -187,6 +187,23 @@ footer a {
 #impact {
 	background: #3EBAA8;
 	color: #FFFFFF;
+	padding-top: 50px;
+}
+
+#impact p {
+	padding: 0 20px;
+	text-align: center;
+}
+
+.stat {
+	font-family: "Roboto Slab";
+	font-size: 64px;
+	font-weight: 700;
+}
+
+.stat-description {
+	font-size: 16px;
+	font-weight: 300;
 }
 
 .initiatives

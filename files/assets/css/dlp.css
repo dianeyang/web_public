@@ -28,6 +28,11 @@ footer a {
 	color: rgb(150, 150, 150);
 }
 
+footer a:hover {
+	text-decoration: none;
+	color: rgb(200,200,200);
+}
+
 .container {
 	max-width: 940px;
 }
@@ -42,10 +47,26 @@ footer a {
 	border-bottom: 5px solid #ff4040;
 }
 
+.row p {
+	font-size: 18px;
+}
+
+.navbar-nav:hover li > a {
+	color: #777;
+	transition: color .15s ease-in-out;
+}
+
 .navbar-nav > li > a:hover
 {
-	color: #777;
+	color: #FFF;
+	transition: color .15s ease-in-out;
 }
+
+/*.navbar-nav > li:hover ~ li > a, .navbar-nav > li:not(:hover) ~ li > a:hover
+{
+	color: #777;
+
+}*/
 
 .navbar .container { height: 2em; width: 100%; }
 
@@ -60,6 +81,7 @@ footer a {
 
 .navbar-brand:hover {
 	color: #777;
+	transition: color .15s ease-in-out;
 }
 
 .nav-collapse
@@ -72,6 +94,7 @@ footer a {
 	font-size: 14px;
 	padding: 20px 24px;
 	font-weight: 400;
+	transition: color .15s ease-in-out;
 }
 
 #myCarousel
@@ -164,16 +187,42 @@ footer a {
 
 .cover:hover::before {
 	background: transparent;
+	transition: background .15s ease-in-out;
 }
 
 .btn-default {
-	background-color: #00A3A3;
 	border: 0;
 	font-size: 18px;
 }
 
+.teal {
+	background-color: #00A3A3;
+}
+
+.teal:hover {
+	background-color: #0FB8B8;
+}
+
+#volunteer-btn {
+	font-size: 21px;
+}
+
+#apply-btn {
+	font-size: 32px;
+}
+
+#apply-row {
+	text-align: center;
+}
+
 .row {
 	margin-top: 30px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.maincontainer > .row:last-of-type {
+	margin-bottom: 80px;
 }
 
 .col-lg-4
@@ -190,7 +239,6 @@ footer a {
 {
 	padding-top: 4px;
 	padding-bottom: 10px;
-	border-top: 4px solid #33cccc;
 }
 
 #impact {
@@ -206,7 +254,7 @@ footer a {
 	text-align: center;
 }
 
-.stat {
+p.stat {
 	font-family: "Roboto Slab";
 	font-size: 64px;
 	font-weight: 700;
@@ -231,4 +279,20 @@ footer a {
 .initimg img
 {
 	padding-bottom: 5px;
+}
+
+.page-title {
+	margin-top: 80px;
+}
+
+#mission-statement {
+	font-size: 32px;
+	font-weight: 700;
+	color: #00A3A3;
+	border-top: 1px dotted #BBB;
+	border-bottom: 1px dotted #BBB;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 200px;
+
 }

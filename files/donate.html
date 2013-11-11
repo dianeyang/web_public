@@ -51,11 +51,16 @@
     </div>
 
     <div class="container">
-      <div class="maincontainer">
-        <h1>Donate</h1>
-        <div class="row mission">
-         <div class="col-lg-6" style="text-align: center; padding-top: 50px;">
-            <h2>Donate through PayPal.</h2>
+      <div class="maincontainer center donate">
+        <h1 class="page-title">Give the gift of education.</h1>
+        <div class="row">
+         <div class="col-lg-12">
+
+            <div class="row">
+              <img id="two-girls" src="./assets/images/two_girls.jpg">
+            </div>
+
+            <p class="make-a-difference">Your donation will help fund our programs for kids in Boston and internationally.</p>
             
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="paypal">
               <input type="hidden" name="cmd" value="_donations">
@@ -67,24 +72,27 @@
               <input type="hidden" name="bn"
               value="PP-DonationsBF:btn_
               donateCC_LG.gif:NonHostedGuest">
-              <input type="image"
-              src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif"
-              border="0" name="submit" alt="PayPal - The safer, easier way to pay
-              online!">
+              <button type="image" class="btn btn-default teal"
+              border="0" name="submit">Donate with Paypal</button>
               <img alt="" border="0"
               src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1"
               height="1">
               </form>
 
-              <br>
-              <h3>Thank you.</h3>
-              <br>
-              <h4><a href="mailto:info@digiliteracy.org">Questions?</a></h4>
           </div>
-          <div class="col-lg-6" style="text-align: center;">
-            <h3>Where will your money go?</h3>
-            <img class="img-responsive" src="assets/images/graph.jpg">
-            <p>We strive to dedicate funds according to the above breakdown. However, sometimes we must respond to unexpected developments or take advantage of fortuitous opportunities. Thus, the above represents an ideal distribution of future spending rather than an actual spending history.</p>
+          <div id="donation-explanation" class="col-lg-12" style="text-align: center;">
+            <h2 class="page-title">Where will your money go?</h2>
+            <div class="col-lg-4">
+              <p>We strive to dedicate funds according to the breakdown at right.</p>
+
+              <p>However, sometimes we must respond to unexpected developments or take advantage of fortuitous opportunities. Thus, the above represents an ideal distribution of future spending rather than an actual spending history.</p>
+
+              <p>Please feel free to <a href="mailto:info@digiliteracy.org">email us with questions.</a></p>
+
+            </div>
+            <div class="col-lg-8">
+              <img class="img-responsive" src="assets/images/graph.jpg">
+            </div>
           </div>
         </div>
       </div>

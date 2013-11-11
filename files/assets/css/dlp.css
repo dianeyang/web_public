@@ -13,7 +13,7 @@ body a:hover {
 	color: #0FB8B8;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
 	font-family: 'Roboto Slab';
 	font-weight: 700;
 }
@@ -38,8 +38,20 @@ footer a:hover {
 	color: rgb(200,200,200);
 }
 
-::selection {
+.paypal button {
+	font-size: 32px;
+}
+
+button:focus {
+	outline-width: none;
+}
+
+.btn-default:active, .btn-default:focus {
 	background: #00A3A3;
+}
+
+::selection {
+	background: #00B5B5;
 	color: #FFFFFF;
 }
 
@@ -54,11 +66,30 @@ footer a:hover {
 .navbar
 {
 	background-color: #303030;
-	border-bottom: 5px solid #ff4040;
+	border-bottom: 3px solid #ff4040;
 }
 
 .row p {
 	font-size: 18px;
+}
+
+.navbar-nav > li > a {
+	color: #FFFFFF;
+	font-size: 14px;
+	padding: 20px 24px;
+	font-weight: 400;
+	transition: color .15s ease-in-out;
+	border-left: 1px solid #393939;
+	border-right: 1px solid #222;
+}
+
+.navbar-nav > li:first-of-type > a {
+	box-shadow: -1px 0 0 #222;
+}
+
+.navbar-nav > li:last-of-type > a {
+	border-right: 1px solid #222;
+	box-shadow: 1px 0 0 #393939;
 }
 
 .navbar-nav:hover li > a {
@@ -97,14 +128,6 @@ footer a:hover {
 .nav-collapse
 {
 	float: right;
-}
-
-.navbar-nav > li > a {
-	color: #FFFFFF;
-	font-size: 14px;
-	padding: 20px 24px;
-	font-weight: 400;
-	transition: color .15s ease-in-out;
 }
 
 #myCarousel
@@ -157,6 +180,27 @@ footer a:hover {
 
 .call-to-action a:hover {
 	color: #FFFFFF;
+}
+
+.call-to-action.our-initiatives {
+	padding-left: 0;
+}
+
+.call-to-action.our-initiatives a {
+	width: 440px;
+	height: 500px;
+	padding-top: 140px;
+	font-size: 64px;
+	background-size: cover;
+	margin-right: 10px;
+}
+
+#local {
+	background-image: url("../images/local3.jpg");
+}
+
+#global {
+	background-image: url("../images/hongkong1.jpg");
 }
 
 #projects {
@@ -222,7 +266,7 @@ footer a:hover {
 }
 
 #apply-btn {
-	font-size: 32px;
+	font-size: 42px;
 }
 
 .centered {
@@ -299,6 +343,10 @@ p.stat {
 	margin-top: 80px;
 }
 
+.center {
+	text-align: center;
+}
+
 #mission-statement {
 	font-size: 32px;
 	font-weight: 700;
@@ -308,18 +356,6 @@ p.stat {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-right: 200px;
-}
-
-#make-a-difference {
-	font-size: 32px;
-	font-weight: 700;
-	color: #00A3A3;
-	border-top: 1px dotted #BBB;
-	border-bottom: 1px dotted #BBB;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 100px;
-	padding-right: 100px;
 }
 
 #sponsors-list {
@@ -336,6 +372,7 @@ p.stat {
 	text-transform: uppercase;
 	font-family: 'Roboto Slab';
 	font-size: 16px;
+	color: #00A3A3;
 }
 
 #team .col-lg-4 {
@@ -351,3 +388,33 @@ p.stat {
 	padding-right: 80px;
 }
 
+#two-girls {
+	width: 700px;
+}
+
+#donation-explanation {
+	margin-top: 30px;
+}
+
+#donation-explanation p {
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+#donation-explanation h2 {
+	margin-bottom: 30px;
+}
+
+.make-a-difference {
+	font-size: 32px !important;
+	font-weight: 700;
+	color: #00A3A3;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.donate .row {
+	margin-top: 15px;
+}

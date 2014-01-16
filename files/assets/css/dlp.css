@@ -95,7 +95,7 @@ button:focus {
 
 .navbar-nav:hover li > a {
 	color: #777;
-	transition: color .15s ease-in-out;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out;
 }
 
 .navbar-nav > li > a:hover

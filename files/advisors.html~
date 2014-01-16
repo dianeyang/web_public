@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Digital Literacy Project</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="http://examples.getbootstrap.com/carousel/carousel.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Lato:300,400,700,900|Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    <!-- DLP Stylesheet -->
+    <link
+     href="./assets/css/dlp.css" rel="stylesheet">
+
+  <style id="holderjs-style" type="text/css">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style></head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+        <div class="navbar navbar-fixed-top">
+          <div class="container">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+            <a class="navbar-brand" href="index.html"><div id="dlpmainheader" style="font-size: 1.3em; float: left;">Digital Literacy Project</div></a>
+
+            <div class="nav-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="mission.html">Mission</a></li>
+                <li><a href="initiatives.html">Initiatives</a></li>
+
+                <li><a href="team.html">Team</a></li>
+                <li><a href="sponsors.html">Sponsors</a></li>
+                <li><a href="donate.html">Donate</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="team" class="container">
+      <div class="maincontainer">
+        <h1 class="page-title">Advisory Board</h1>
+        	<h3><a href="team.html">Board of Directors</a> | <a href="founders.html">Founders</a></div></h3>
+        <div class="row mission">
+          <div class="col-lg-4">
+              <img class="img-responsive" src="assets/images/karen.jpg">
+          </div>
+          <div class="col-lg-8">
+            <h2>Karen Brennan</h2>
+            <h4>Harvard Graduate School of Education</h4>
+            <p>Karen Brennan is an Assistant Professor at Harvard University in the Graduate School of Education.
+She completed her PhD at the MIT Media Lab in the Lifelong Kindergarten group.
+
+Her research is primarily concerned with the ways in which learning communities support computational creators -- and how technologies and environments can be designed for these learning communities.
+She is particularly interested in Scratch.
+
+In addition to communities of practice and computational creation, she is interested in design education, computer science education, gender equity, and curriculum development.
+
+She has a BSc in computer science and mathematics, a BEd in the same areas, and an MA in curriculum studies - all from the University of British Columbia in Vancouver, Canada.</p>
+          </div>
+        </div>
+        <div class="row mission">
+          <div class="col-lg-4">
+              <img class="img-responsive" src="assets/images/david.jpg">
+          </div>
+          <div class="col-lg-8">
+            <h2>David Dockterman</h2>
+            <h4>Harvard Graduate School of Education</h4>
+            <p>David Dockterman is chief architect, learning sciences at Scholastic Education where he provides guidance on turning research into practice and programs. He was one of the founders of Tom Snyder Productions, a leading educational software developer and publisher that was acquired by Scholastic in 2001. Over his 25-plus years in the industry, Dockterman has led the development of scores of award-winning instructional technology programs, including Decisions, Decisions; Thinking Reader; FASTT Math; and TimeLiner. Most recently he served as a key adviser for the creation of Scholastic's MATH 180. Dockterman authored the books Great Teaching in the One Computer Classroom and Weaving Technology into Your Teaching. He also cocreated and cowrote Science Court, the highly acclaimed animated TV show that ran for three years on ABC's Saturday Morning. Before joining Tom Snyder Productions, Dockterman taught high school social studies. He has dedicated himself to supporting classroom teaching and the successful integration of technology into schools. "Dock" enjoys family time and community volunteer work.
+</p>
+          </div>
+        </div>    
+      <div class="row mission">
+          <div class="col-lg-4">
+              <img class="img-responsive" src="assets/images/paul.jpg">
+          </div>
+          <div class="col-lg-8">
+            <h2>Paul Sagan</h2>
+            <h4>Akamai Technologies</h4>
+            <p>Paul Sagan is an American businessman and the Executive Vice Chairman of Akamai Technologies. Sagan joined the company in October 1998 as Chief Operating Officer, became President the following year, and was elected to the Akamai board of directors in January 2005. He became CEO in April 2005 and was succeeded by Akamai co-founder Tom Leighton on January 1, 2013. He is a member of the board of directors of EMC Corporation, iRobot, and the not-for-profit ProPublica. He is also a trustee of his alma mater, Northwestern University. Sagan was appointed by President Barack Obama to the President's National Security Telecommunications Advisory Committee in 2010. He is a three time Emmy award winner for broadcast journalism in New York.</p>
+          </div>
+        </div>
+	  <div class="row mission">
+          <div class="col-lg-4">
+              <img class="img-responsive" src="assets/images/pat.jpg">
+          </div>
+          <div class="col-lg-8">
+            <h2>Pat Yongpradit</h2>
+            <h4>Code.org</h4>
+            <p>Pat Yongpradit is Director of Education for <a href="http://code.org">Code.org</a> He also teaches high school computer science. He is involved in curriculum at the local, state, and national level, presents at national technology conferences, and is a 2010 Microsoft Worldwide Innovative Educator. His students are currently creating games and mobile applications to address social causes. His goal as a teacher is to encourage students to become creators of technology, not just users. "The man who finds a job he loves will never work a day in his life." Who looks forward to Mondays? Pat does.</p>
+          </div>
+        </div>
+    </div><!-- /.container -->
+
+<!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>© 2013 Digital Literacy Project (DLP) Inc · <a href="terms.html">Terms and Privacy Policy</a></p>
+        <p>We are a 501(c)(3) organization. Donations are tax deductible to the full extent allowable under IRS regulations.</p>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+      if ($(window).width()<($('#dlpmainheader').width()+150))
+        $('#dlpmainheader').html("DLP");
+    });
+
+  </script>
+
+</body></html>

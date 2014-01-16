@@ -1,0 +1,49 @@
+body {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.navbar
+{
+	background-color: #fff;
+	border-top: 5px solid #ff4040;
+}
+
+.navbar a
+{
+	color: #1C1C1C;
+}
+
+.navbar .container { height: 2em; width: 100%; }
+
+.navbar-brand
+{
+	max-width: 350px;
+}
+
+#myCarousel
+{
+	padding: 0;
+	height: 780px;
+	background-color: #CECECE; 
+	background-image: url('../images/cropped_home.jpg');
+	background-size: auto 102%;
+	background-repeat:no-repeat; 
+	background-position:center top; 
+}
+
+#myCarouselCaption
+{
+	z-index: 2;
+	margin-top: 550px; 
+	padding: 10px; 
+	color: #1C1C1C; 
+	background-color: rgba(240, 240, 240, 0.7); 
+	border: 2px solid #CECECE;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.col-lg-4
+{
+	border: 2px solid #CECECE;
+}

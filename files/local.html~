@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Digital Literacy Project</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="http://examples.getbootstrap.com/carousel/carousel.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Lato:300,400,700,900|Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    <!-- DLP Stylesheet -->
+    <link
+     href="./assets/css/dlp.css" rel="stylesheet">
+
+  <style id="holderjs-style" type="text/css">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style></head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+        <div class="navbar navbar-fixed-top">
+          <div class="container">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+            <a class="navbar-brand" href="index.html"><div id="dlpmainheader" style="font-size: 1.3em; float: left;">Digital Literacy Project</div></a>
+
+            <div class="nav-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="mission.html">Mission</a></li>
+                <li><a href="initiatives.html">Initiatives</a></li>
+
+                <li><a href="team.html">Team</a></li>
+                <li><a href="sponsors.html">Sponsors</a></li>
+                <li><a href="donate.html">Donate</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="maincontainer">
+        <h1 class="page-title">Local Initiatives</h1>
+        <div class="row mission">
+          <div class="col-lg-8">
+              <h3><a href="volunteer.html">Fall 2013</a></h3>
+              <p>Fall 2013 ­­­> In fall of 2013 the DLP piloted a 10 week introductory computer
+
+science class in five Boston middle­school classrooms. After a successful semester
+
+introducing students to scratch and processing.JS., we're
+
+excited to bring basic CS to even more students. <a href="volunteer.html">Sign up to volunteer.</a></p>
+              
+              <h3><a href="http://missionhillschool.org">Mission Hill School Pilot Program (2010-2011)</a></h3>
+
+              <p>The Mission Hill School XO laptop pilot program was DLP’s first collaboration with the Boston Public School System. The Mission Hill School is a low-income public charter school in Boston’s Mission Hill neighborhood. The program was designed to help the 4th and 5th grades grow from a 0.06 laptop to student ratio to the one laptop per child ratio that enables ownership of technology.</p>
+
+              <p>The program included:</p>
+
+              <ul>
+                <li>Teacher training workshops</li>
+                <li>Classroom activities</li>
+                <li>After-school sessions</li>
+                <li>Pre- and post-assessment interviews and surveys</li>
+              </ul>
+
+              <h3><a href="http://cambridgefriendsschool.org">Cambridge Friends School (2009-2010)</a></h3>
+
+              <p>The Cambridge Friends School XO laptop pilot program was one of the first in the Boston area. The Cambridge Friends School (CFS) is an independent K-8 Quaker school in Cambridge, MA. The goal of the pilot was to authentically integrate the XO into the existing curriculum.</p>
+
+              <p>The program included:</p>
+
+              <ul>
+                <li>Teacher training workshops</li>
+                <li>Classroom activities</li>
+                <li>After-school sessions</li>
+                <li>Pre- and post-assessment interviews and surveys</li>
+              </ul>
+
+              <p>During the 2008-2009 academic year, DLP piloted the XO in the two 6th grade classrooms (28 students). In the fall of 2009, the XOs were moved to the 4th grade (27 students), where they have been a better match for student age and interests. The 4th grade program was expanded to include the 3rd grade in the fall of 2010, totaling 40 students.</p>
+
+          </div>
+          <div class="col-lg-4 initimg">
+            <img class="img-responsive" src="assets/images/local4.jpg">
+            <img class="img-responsive" src="assets/images/local1.jpg">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>© 2013 Digital Literacy Project (DLP) Inc · <a href="terms.html">Terms and Privacy Policy</a></p>
+        <p>We are a 501(c)(3) organization. Donations are tax deductible to the full extent allowable under IRS regulations.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+      if ($(window).width()<($('#dlpmainheader').width()+150))
+        $('#dlpmainheader').html("DLP");
+    });
+
+  </script>
+
+</body></html>

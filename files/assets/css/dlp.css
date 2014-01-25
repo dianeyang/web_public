@@ -80,17 +80,6 @@ button:focus {
 	padding: 20px 24px;
 	font-weight: 400;
 	transition: color .15s ease-in-out;
-	border-left: 1px solid #393939;
-	border-right: 1px solid #222;
-}
-
-.navbar-nav > li:first-of-type > a {
-	box-shadow: -1px 0 0 #222;
-}
-
-.navbar-nav > li:last-of-type > a {
-	border-right: 1px solid #222;
-	box-shadow: 1px 0 0 #393939;
 }
 
 .navbar-nav:hover li > a {
